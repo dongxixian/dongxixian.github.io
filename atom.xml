@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-02-24T12:28:35.509Z</updated>
+  <updated>2021-02-25T01:45:42.409Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vs2019重装问题</title>
+    <link href="http://example.com/2021/02/25/vs/"/>
+    <id>http://example.com/2021/02/25/vs/</id>
+    <published>2021-02-25T01:40:11.000Z</published>
+    <updated>2021-02-25T01:45:42.409Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;vs2019卸载重装问题&quot;&gt;&lt;a href=&quot;#vs2019卸载重装问题&quot; class=&quot;headerlink&quot; title=&quot;vs2019卸载重装问题&quot;&gt;&lt;/a&gt;vs2019卸载重装问题&lt;/h3&gt;&lt;p&gt;我的是win10系统。可能每个人遇到的情况不一样，此文仅供参</summary>
+      
+    
+    
+    
+    <category term="程序" scheme="http://example.com/categories/%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+    <category term="-vs2019 -程序" scheme="http://example.com/tags/vs2019-%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>数据的存储</title>
