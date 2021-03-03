@@ -240,8 +240,8 @@ mark {
     margin-bottom: 0;
 }
 
-.bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+.bg-color {   
+    background-image: linear-gradient(to right, #e97c7c 0%, #f35e5e 100%);
 }
 
 .text-color {
@@ -584,7 +584,7 @@ header .go-back i {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
-    color: rgb(47, 223, 193);
+    color: rgb(136, 212, 200);
 }
 
 .bg-cover .post-title {
