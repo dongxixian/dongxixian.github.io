@@ -584,7 +584,7 @@ header .go-back i {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
-    color: #eee;
+    color: rgb(47, 223, 193);
 }
 
 .bg-cover .post-title {
@@ -592,7 +592,7 @@ header .go-back i {
     font-size: 2.5rem;
     font-weight: 400;
 }
-
+/*
 @-webkit-keyframes rainbow {
 
     0%,
@@ -684,6 +684,7 @@ header .go-back i {
         background: -webkit-linear-gradient(135deg, rgba(28, 124, 95, 0.63) 0%, rgba(28, 124, 95, 0.63) 100%);
     }
 }
+*/
 
 .index-card {
     margin-top: -10px;
