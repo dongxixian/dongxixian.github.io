@@ -34,16 +34,6 @@
 
 
 
-   <style>
-    body{
-       background-image: url(http://dongxixian.github.io/medias/avatar.jpg);
-       background-repeat:no-repeat;
-       background-size:cover;
-       background-attachment:fixed;
-    }
-</style>
-
-
 
 <body>
     <header class="navbar-fixed">
@@ -551,7 +541,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2020-03","2020-04","2020-05","2020-06","2020-07","2020-08","2020-09","2020-10","2020-11","2020-12","2021-01","2021-02","2021-03"]
+            data: ["2020-04","2020-05","2020-06","2020-07","2020-08","2020-09","2020-10","2020-11","2020-12","2021-01","2021-02","2021-03","2021-04"]
         },
         yAxis: {
             type: 'value',
@@ -561,7 +551,7 @@
                 name: 'Number of posts',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,5,1],
+                data: [0,0,0,0,0,0,0,0,0,0,5,1,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -603,7 +593,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"设计","value":1},{"name":"matery主题","value":1},{"name":"c语言","value":1},{"name":"程序","value":1}],
+                data: [{"name":"设计","value":1},{"name":"c语言","value":1},{"name":"程序","value":1},{"name":"matery主题","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -627,7 +617,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["-人物 -漫画","-matery主题 -blog","-c语言 -基础","-vs2019 -程序"]
+                data: ["-人物 -漫画","-c语言 -基础","-vs2019 -程序","-matery主题 -blog"]
             }
         ],
         yAxis: [
@@ -1050,8 +1040,6 @@ $(function () {
 
     
 
-    
-    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
 
     
