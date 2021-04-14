@@ -239,9 +239,9 @@ mark {
 .container .row {
     margin-bottom: 0;
 }
-
+/*导航栏*/
 .bg-color {   
-    background-image: linear-gradient(to right, #34495e 0%, #243f58 100%);
+    background-image: linear-gradient(to right, #ffffff 0%, #243f58 100%);
     opacity: 1
 }
 
@@ -252,13 +252,13 @@ mark {
 .white-color {
     color: #fff;
 }
-
+/*进度条*/
 .progress-bar {
     height: 4px;
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #5cffff 0%, #22ffaa 100%);
     opacity: 0.8;
 }
 
