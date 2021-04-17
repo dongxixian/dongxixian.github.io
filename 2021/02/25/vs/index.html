@@ -486,11 +486,6 @@
                 
 
                 
-                <div class="info-break-policy">
-                    <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
-                </div>
-                
 
                 
                     <div id="busuanzi_container_page_pv" class="info-break-policy">
@@ -1002,7 +997,7 @@
         el: '#vcomments',
         appId: '74D7CUtcwAIGY8WMkuHUQvnq-gzGzoHsz',
         appKey: 'TDbvVhmm9khS4rwnHU3UcCvy',
-        notify: 'false' === 'true',
+        notify: 'true' === 'true',
         verify: 'false' === 'true',
         visitor: 'true' === 'true',
         avatar: 'mm',
@@ -1410,11 +1405,11 @@
                     if (startYear == todayYear) {
                         document.getElementById("year").innerHTML = todayYear;
                         document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
-                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                            " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒";
                     } else {
                         document.getElementById("year").innerHTML = startYear + " - " + todayYear;
                         document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
-                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒";
                     }
                 }
                 setInterval(siteTime, 1000);

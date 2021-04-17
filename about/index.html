@@ -595,7 +595,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"设计","value":1},{"name":"matery主题","value":1},{"name":"c语言","value":1},{"name":"程序","value":1}],
+                data: [{"name":"设计","value":1},{"name":"c语言","value":1},{"name":"matery主题","value":1},{"name":"程序","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -619,7 +619,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["-人物 -漫画","-matery主题 -blog","-c语言 -基础","-vs2019 -程序"]
+                data: ["-人物 -漫画","-c语言 -基础","-matery主题 -blog","-vs2019 -程序"]
             }
         ],
         yAxis: [
@@ -841,11 +841,11 @@
                     if (startYear == todayYear) {
                         document.getElementById("year").innerHTML = todayYear;
                         document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
-                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                            " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒";
                     } else {
                         document.getElementById("year").innerHTML = startYear + " - " + todayYear;
                         document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
-                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒";
                     }
                 }
                 setInterval(siteTime, 1000);
