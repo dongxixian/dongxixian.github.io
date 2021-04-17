@@ -474,7 +474,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2021-03-20
+                    2021-04-17
                 </div>
                 
 
@@ -560,13 +560,45 @@
 <p>对于整形来说：数据存放内存中其实存放的是补码；</p>
 <p>原因：</p>
 <p>再计算机系统中，数值一律用补码来表示和存储。原因在于，使用补码，可以将符号位和数值域统一处理，同时，加法和减法也可以统一处理（CPU只有加法器），此外，原码与补码相互转换，其运算过程是相同的，不需要额外的硬件电路</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="number">1</span><span class="number">-1</span>;<span class="comment">//1+（-1）</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">//原码相加：</span></span><br><span class="line">    <span class="comment">//00000000000000000000000000000001</span></span><br><span class="line">    <span class="comment">//10000000000000000000000000000001</span></span><br><span class="line">    <span class="comment">//10000000000000000000000000000010</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">//反码相加：</span></span><br><span class="line">    <span class="comment">//10000000000000000000000000000001</span></span><br><span class="line">    <span class="comment">//11111111111111111111111111111110</span></span><br><span class="line">    <span class="comment">//11111111111111111111111111111111</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">//补码相加：</span></span><br><span class="line">    <span class="comment">//00000000000000000000000000000001</span></span><br><span class="line">    <span class="comment">//11111111111111111111111111111111</span></span><br><span class="line">    <span class="comment">//10000000000000000000000000000000</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token number">1</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span><span class="token comment">//1+（-1）</span>
+    
+    <span class="token comment">//原码相加：</span>
+    <span class="token comment">//00000000000000000000000000000001</span>
+    <span class="token comment">//10000000000000000000000000000001</span>
+    <span class="token comment">//10000000000000000000000000000010</span>
+    
+    <span class="token comment">//反码相加：</span>
+    <span class="token comment">//10000000000000000000000000000001</span>
+    <span class="token comment">//11111111111111111111111111111110</span>
+    <span class="token comment">//11111111111111111111111111111111</span>
+    
+    <span class="token comment">//补码相加：</span>
+    <span class="token comment">//00000000000000000000000000000001</span>
+    <span class="token comment">//11111111111111111111111111111111</span>
+    <span class="token comment">//10000000000000000000000000000000</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 <h6 id="原码"><a href="#原码" class="headerlink" title="原码"></a>原码</h6><p>直接将二进制按照正负的形式翻译成二进制就可以；</p>
 <h6 id="反码"><a href="#反码" class="headerlink" title="反码"></a>反码</h6><p>将原码的符号位不变，其他位次依次按位取反得到；</p>
 <h6 id="补码"><a href="#补码" class="headerlink" title="补码"></a>补码</h6><p>反码+1；</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a=<span class="number">20</span>;<span class="comment">//4个字节-32bit，一个字节8bit</span></span><br><span class="line">    <span class="comment">//00000000000000000000000000010100-原码</span></span><br><span class="line">    <span class="comment">//00000000000000000000000000010100-反码</span></span><br><span class="line">    <span class="comment">//0000 0000 000000000000000000010100-补码</span></span><br><span class="line">    <span class="comment">//0X00000014十六进制位</span></span><br><span class="line">    <span class="keyword">int</span> b=<span class="number">-10</span>;</span><br><span class="line">    <span class="comment">//00000000000000000000000000001010-原码</span></span><br><span class="line">    <span class="comment">//11111111111111111111111111110101-反码</span></span><br><span class="line">    <span class="comment">//1111 1111 11111111111111111111 0110-补码</span></span><br><span class="line">    <span class="comment">//8421 </span></span><br><span class="line">    <span class="comment">//0XFFFFFFF6</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token keyword">int</span> a<span class="token operator">=</span><span class="token number">20</span><span class="token punctuation">;</span><span class="token comment">//4个字节-32bit，一个字节8bit</span>
+    <span class="token comment">//00000000000000000000000000010100-原码</span>
+    <span class="token comment">//00000000000000000000000000010100-反码</span>
+    <span class="token comment">//0000 0000 000000000000000000010100-补码</span>
+    <span class="token comment">//0X00000014十六进制位</span>
+    <span class="token keyword">int</span> b<span class="token operator">=</span><span class="token operator">-</span><span class="token number">10</span><span class="token punctuation">;</span>
+    <span class="token comment">//00000000000000000000000000001010-原码</span>
+    <span class="token comment">//11111111111111111111111111110101-反码</span>
+    <span class="token comment">//1111 1111 11111111111111111111 0110-补码</span>
+    <span class="token comment">//8421 </span>
+    <span class="token comment">//0XFFFFFFF6</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>整数：</p>
 <p>1.有符号数</p>
 <p>正数：原码，反码，补码相同</p>
