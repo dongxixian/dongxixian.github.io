@@ -1337,7 +1337,7 @@ thead {
     color: #fff;
 }
 
-/* archive page. */
+/* archive page. 存档页*/
 #cd-timeline .year {
     position: relative;
     width: 80px;
@@ -1903,7 +1903,7 @@ footer .copy-right {
     margin-bottom: 0;
     z-index: 998;
 }
-
+/* 顶部卷轴*/
 .top-scroll .btn-floating {
     background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%);
     width: 48px;
