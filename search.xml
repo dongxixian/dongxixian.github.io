@@ -8,7 +8,7 @@
       <link href="2021/03/03/matery/"/>
       <url>2021/03/03/matery/</url>
       
-        <content type="html"><![CDATA[<h5 id="matery主题页脚颜色关闭"><a href="#matery主题页脚颜色关闭" class="headerlink" title="matery主题页脚颜色关闭"></a>matery主题页脚颜色关闭</h5><p>控制代码所在位置<strong>D:\blog\themes\matery\layout_partial\footer.ejs</strong></p><p>更改前：<a href="http://dongxixian.github.io/images/14.png">更改前</a></p><p>更改后：<a href="http://dongxixian.github.io/images/15.png">更改后</a></p>]]></content>
+        <content type="html"><![CDATA[<h5 id="matery主题页脚颜色关闭"><a href="#matery主题页脚颜色关闭" class="headerlink" title="matery主题页脚颜色关闭"></a>matery主题页脚颜色关闭</h5><p>控制代码所在位置<strong>D:\blog\themes\matery\layout_partial\footer.ejs</strong></p><p>更改前：<img src="http://dongxixian.github.io/images/14.png" alt="更改前"></p><p>更改后：<img src="http://dongxixian.github.io/images/15.png" alt="更改后"></p>]]></content>
       
       
       <categories>
