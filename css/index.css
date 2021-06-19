@@ -4171,6 +4171,9 @@ _:future,
 #post .ads-wrap {
   margin: 2rem 0;
 }
+.layout_post>#post {
+  background: rgba(255,255,255,0);
+}
 .relatedPosts {
   margin-top: 2rem;
 }
