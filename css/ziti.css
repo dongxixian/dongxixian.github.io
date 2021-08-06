@@ -1,8 +1,8 @@
-@font-face {
+/*@font-face {
     font-family: 'sleek';
     src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
 }
-
+*/
 /*Lete个人博客颜色修改*/
 
 #page-header #site_title {
@@ -25,7 +25,7 @@ a {
 /*头部文字颜色*/
 
 #nav a {
-    color: #f9f2f4;
+    color: #faa5a5;
 }
 
 
