@@ -10,7 +10,7 @@ app.removeAttribute('id')
 */
 
 /*添加图片top*/
-var top_up = "<img id='upj' class='upj' style='max-width: 100%; transform: translate(-70px,-70px);' src='https://dongxixian.github.io/img/up.gif' title='回到顶部' >";
+var top_up = "<img id='upj' class='upj' style='max-width: 1000%; transform: translate(-80px,-80px);' src='https://dongxixian.github.io/img/up.gif' title='回到顶部' >";
 /*添加到返回顶部按钮下*/
 document.getElementById("go-up").innerHTML += top_up;
 //https://cdn.jsdelivr.net/gh/lete114/CDN/Use/up.gif
