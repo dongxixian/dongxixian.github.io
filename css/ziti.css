@@ -27,6 +27,11 @@ a {
 #nav a {
     color: #faa5a5;
 }
+/*图标上移的bug*/
+.fas {
+    line-height: 2;
+
+}
 
 
 /* 鼠标图标 */
