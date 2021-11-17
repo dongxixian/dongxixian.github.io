@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>董の小站</title>
+  <title>dxxの小站</title>
   
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-14T16:20:00.941Z</updated>
+  <updated>2021-11-17T12:50:18.764Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>html学习</title>
+    <link href="http://example.com/2021/11/17/html%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://example.com/2021/11/17/html%E5%AD%A6%E4%B9%A0/</id>
+    <published>2021-11-17T12:01:56.000Z</published>
+    <updated>2021-11-17T12:50:18.764Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;大喊大叫的&lt;br&gt;&lt;img src=&quot;%5DD:%5Cmy_html%5C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B5%E9%9D%A2%5C%E8%A1%A8%E5%8D%95.html&quot; alt=&quot;表单&quot;&gt;</summary>
+      
+    
+    
+    
+    <category term="分类" scheme="http://example.com/categories/%E5%88%86%E7%B1%BB/"/>
+    
+    
+    <category term="-html -学习" scheme="http://example.com/tags/html-%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>sss</title>
