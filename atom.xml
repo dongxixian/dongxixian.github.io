@@ -127,29 +127,4 @@
     
   </entry>
   
-  <entry>
-    <title>My design</title>
-    <link href="http://example.com/2021/02/19/My%20design/"/>
-    <id>http://example.com/2021/02/19/My%20design/</id>
-    <published>2021-02-19T13:14:22.000Z</published>
-    <updated>2021-12-27T16:19:07.592Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;今日份design&lt;/p&gt;
-&lt;img src=http://dongxixian.github.io/img/1.jpg width=40% /&gt;
-&lt;img src=http://dongxixian.github.io/img/2.jpg width=40% /&gt;
-&lt;im</summary>
-      
-    
-    
-    
-    <category term="设计" scheme="http://example.com/categories/%E8%AE%BE%E8%AE%A1/"/>
-    
-    
-    <category term="-人物 -漫画" scheme="http://example.com/tags/%E4%BA%BA%E7%89%A9-%E6%BC%AB%E7%94%BB/"/>
-    
-  </entry>
-  
 </feed>
