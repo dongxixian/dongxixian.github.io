@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-27T16:43:16.647Z</updated>
+  <updated>2021-12-28T12:00:37.723Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo改动日记</title>
+    <link href="http://example.com/2021/12/28/hexo-change/"/>
+    <id>http://example.com/2021/12/28/hexo-change/</id>
+    <published>2021-12-28T11:54:41.000Z</published>
+    <updated>2021-12-28T12:00:37.723Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;hexo改动日记&quot;&gt;&lt;a href=&quot;#hexo改动日记&quot; class=&quot;headerlink&quot; title=&quot;hexo改动日记&quot;&gt;&lt;/a&gt;hexo改动日记&lt;/h2&gt;&lt;p&gt;不得不说，从建站到现在，一直都在魔改的路上，有时候一出现问题，对小白新手来说（我），真的很无</summary>
+      
+    
+    
+    
+    <category term="分类" scheme="http://example.com/categories/%E5%88%86%E7%B1%BB/"/>
+    
+    
+    <category term="-标签1 -标签2" scheme="http://example.com/tags/%E6%A0%87%E7%AD%BE1-%E6%A0%87%E7%AD%BE2/"/>
+    
+  </entry>
   
   <entry>
     <title>html学习</title>
