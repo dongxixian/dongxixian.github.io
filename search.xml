@@ -8,7 +8,7 @@
       <link href="2021/12/28/hexo-change/"/>
       <url>2021/12/28/hexo-change/</url>
       
-        <content type="html"><![CDATA[<h2 id="hexo改动日记"><a href="#hexo改动日记" class="headerlink" title="hexo改动日记"></a>hexo改动日记</h2><p>不得不说，从建站到现在，一直都在魔改的路上，有时候一出现问题，对小白新手来说（我），真的很无助，啊啊啊，大佬ddw~~</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="hexo改动日记"><a href="#hexo改动日记" class="headerlink" title="hexo改动日记"></a>hexo改动日记</h2><p>不得不说，从建站到现在，一直都在魔改的路上，有时候一出现问题，对小白新手来说（我），真的很无助，这篇文章主要给自己做个笔记，方便以后把博客搞崩了，卑微还原😄。<br>Markdown语法移步<a href="https://markdown.com.cn/basic-syntax/">传送门biu~</a></p>]]></content>
       
       
       <categories>
@@ -20,7 +20,7 @@
       
         <tags>
             
-            <tag> -标签1 -标签2 </tag>
+            <tag> -hexo -笔记 </tag>
             
         </tags>
       
@@ -46,31 +46,6 @@
         <tags>
             
             <tag> -html -学习 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>matery主题</title>
-      <link href="2021/03/03/matery/"/>
-      <url>2021/03/03/matery/</url>
-      
-        <content type="html"><![CDATA[<h5 id="matery主题页脚颜色关闭"><a href="#matery主题页脚颜色关闭" class="headerlink" title="matery主题页脚颜色关闭"></a>matery主题页脚颜色关闭</h5><p>控制代码所在位置<strong>D:\blog\themes\matery\layout_partial\footer.ejs</strong><br>hhhhhhhhhhhhhhhhhhhhhhhhhhh</p><p>更改前：<img src="http://dongxixian.github.io/images/14.png"></p><p>更改后：<img src="http://dongxixian.github.io/images/15.png"></p><p>效果图：<img src="http://dongxixan.github.io/images/16.jpg" alt="手机模式"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> matery主题 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -matery主题 -blog </tag>
             
         </tags>
       

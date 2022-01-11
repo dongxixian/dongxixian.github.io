@@ -1317,7 +1317,7 @@ canvas:not(#ribbon-canvas),
   --tab-button-active-bg: #fff;
   --card-bg: #fff;
   --sidebar-bg: #f6f8fa;
-  --btn-hover-color: #afeeee;
+  --btn-hover-color: #0cc;
   --btn-color: #fff;
   --btn-bg: #ff8099;
   --text-bg-hover: #ff8099;
@@ -1363,7 +1363,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://dongxixian.github.io/img/b1.jpg);
+  background: url(https://dongxixian.github.io/img/b2.jpg);
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -1979,7 +1979,7 @@ blockquote footer cite:before {
   font-size: 1.72em;
 }
 .article-sort-title:hover:before {
-  border-color: #afeeee;
+  border-color: #0cc;
 }
 .article-sort-title:before {
   position: absolute;
@@ -2031,7 +2031,7 @@ blockquote footer cite:before {
   transition: all 0.2s ease-in-out;
 }
 .article-sort-item:hover:before {
-  border-color: #afeeee;
+  border-color: #0cc;
 }
 .article-sort-item:before {
   position: absolute;
@@ -2061,7 +2061,7 @@ blockquote footer cite:before {
   border-color: #ff8099;
 }
 .article-sort-item.year:before {
-  border-color: #afeeee;
+  border-color: #0cc;
 }
 .article-sort-item-time {
   color: #858585;
@@ -2185,7 +2185,7 @@ blockquote footer cite:before {
   content: '';
 }
 #page .category-lists ul li:hover:before {
-  border-color: #afeeee;
+  border-color: #0cc;
 }
 .layout {
   display: -webkit-box;
@@ -4256,7 +4256,7 @@ _:future,
   padding: 0.2em 0.2em 0.2em 1.4em;
 }
 #article-container.post-content ul > li:not(.tab):hover:before {
-  border-color: #afeeee;
+  border-color: #0cc;
 }
 #article-container.post-content ul > li:not(.tab):before {
   top: 0.78em;
