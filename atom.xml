@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-08T16:10:57.247Z</updated>
+  <updated>2022-10-03T13:18:21.907Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/12/28/hexo-change/"/>
     <id>http://example.com/2021/12/28/hexo-change/</id>
     <published>2021-12-28T11:54:41.000Z</published>
-    <updated>2022-03-08T16:10:57.247Z</updated>
+    <updated>2022-10-03T13:18:21.907Z</updated>
     
     
     <summary type="html">hexo改动日记，记录一下</summary>
@@ -36,25 +36,21 @@
   </entry>
   
   <entry>
-    <title>html学习</title>
-    <link href="http://example.com/2021/11/17/html%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://example.com/2021/11/17/html%E5%AD%A6%E4%B9%A0/</id>
+    <title>屑作</title>
+    <link href="http://example.com/2021/11/17/paints/"/>
+    <id>http://example.com/2021/11/17/paints/</id>
     <published>2021-11-17T12:01:56.000Z</published>
-    <updated>2022-03-08T16:13:49.564Z</updated>
+    <updated>2022-10-03T13:18:52.399Z</updated>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;&lt;font face=&quot;face&quot; color=&quot;#0099ff&quot;&gt;自己写了几个效果图，求轻喷。&lt;/font&gt;&lt;/p&gt;
-</summary>
-      
+    <summary type="html">画渣成长史</summary>
     
     
     
-    <category term="分类" scheme="http://example.com/categories/%E5%88%86%E7%B1%BB/"/>
+    <category term="涂鸦" scheme="http://example.com/categories/%E6%B6%82%E9%B8%A6/"/>
     
     
-    <category term="-html -css" scheme="http://example.com/tags/html-css/"/>
+    <category term="-涂鸦" scheme="http://example.com/tags/%E6%B6%82%E9%B8%A6/"/>
     
   </entry>
   
